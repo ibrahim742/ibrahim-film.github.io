@@ -598,6 +598,8 @@ body.light .toggle-ball {
     object-fit: cover;
   }
 
+
+
   /* DESKRIPSI */
   .content-desc {
     top: 600px;
@@ -654,12 +656,31 @@ body.light .toggle-ball {
     margin-left: 0;
   }
 
+  .movie-list .movie-list-item img {
+    margin: -8px;
+  }
+
   .movie-list-title {
+    font-size: 20px;
+  }
+
+  .series-arrow-left {
+    top: 75px;
+    font-size: 20px;
+  }
+
+  .series-arrow-right {
+    top: 75px;
     font-size: 20px;
   }
 
   .footer-container {
     grid-template-columns: 1fr;
+  }
+
+  .movie-list-series-item-img{
+    width: 100px;
+    height: 150px;
   }
 }
 
