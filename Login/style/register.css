@@ -1,0 +1,239 @@
+@import url('./app.css');
+
+body{
+	background-image: url(../image/daftar.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-container{
+	width: 306px;
+	height: auto;
+	background-color: #181A1CD6;
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	color: white;
+}
+
+.card-title{
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 140%;
+	letter-spacing: 0.2px;
+	text-align: center;
+}
+
+.card-title p:first-child{
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+.card-form{
+	width: 100%;
+}
+
+.input-group{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.form-label{
+	display: block;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 140%;
+	letter-spacing: 0.2px;
+	margin-bottom: 4px;
+}
+
+.form-input{
+	display: block;
+	width: 100%;
+	height: 28px;
+	border-radius: 12px;
+	border: 0.5px solid rgba(231, 227, 252, 0.23);
+	background-color: transparent;
+	padding: 4px 12px;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 140%;
+	letter-spacing: 0.2px;
+	color: rgba(193, 194, 196, 1);
+}
+
+.password-icon{
+	position: absolute;
+	/* left: 240px;
+	bottom: 24px; */
+	 right: 10px;
+    top: 26px;
+	cursor: pointer;
+}
+
+.form-footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.form-footer p, .form-footer a{
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 140%;
+	letter-spacing: 0.2px;
+	margin-top: -10px;
+	text-decoration: none;
+}
+
+.form-footer p:first-child{
+	color: #C1C2C4;
+	cursor: pointer;
+}
+
+.form-footer  a{
+	color: white;
+	cursor: pointer;
+}
+
+.form-footer a:hover{
+	text-decoration: underline;
+}
+
+.form-button{
+	width: 100%;
+	height: 36px;
+	background-color: transparent;
+	border-radius: 14px;
+	border: 1px solid rgba(231, 227, 252, 0.23);
+	font-weight: 600;
+	font-size: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.form-button-primary{
+	background-color: rgba(61, 65, 66, 1);
+	opacity: 0.70;
+}
+
+.separator{
+	color: white;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 140%;
+	letter-spacing: 0.2px;
+	text-align: center;
+	margin: 4px 0;
+
+}
+
+.form-button-google{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	border: 1px solid rgba(231, 227, 252, 0.23);
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+	.card-container{
+		width: 529px;
+		height: auto;
+		padding: 40px;
+		gap: 35px;
+	}
+
+	.card-container > img{
+		width: 163px;
+		height: auto;
+	}
+
+	.card-title{
+		font-size: 16px;
+	}
+
+	.card-title p:first-child{
+		font-size: 32px;
+		margin-bottom: 14px;
+	}
+
+	.input-group{
+	margin-bottom: 20px;
+}
+
+	.form-label{
+		font-size: 18px;
+		margin-bottom: 6px;
+	}
+
+	.form-input{
+		height: 50px;
+		border-radius: 12px;
+		border: 1px solid rgba(231, 227, 252, 0.23);
+		background-color: transparent;
+		font-size: 15px;
+	}
+
+	.password-icon{
+		width: 20px;
+		height: 20px;
+		right: 15px;
+		top: 45px;
+		cursor: pointer;
+	}
+
+	.form-footer{
+		margin-top: 1px;
+		margin-bottom: 30px;
+	}
+
+	.form-footer p, .form-footer a{
+		font-size: 16px;
+	}
+
+	.form-footer p .form-footer a{
+		font-size: 16px;
+
+	}
+
+	.form-button{
+		height: 50px;
+		background-color: transparent;
+		border-radius: 24px;
+		border: 1px solid rgba(231, 227, 252, 0.23);
+		font-size: 16px;
+		color: white;
+		cursor: pointer;
+	}
+
+	.form-button-primary{
+		background-color: rgba(61, 65, 66, 1);
+		opacity: 0.70;
+	}
+
+	.form-button-google {
+		gap: 20px;
+	}
+
+	.separator{
+		font-size: 14px;
+		padding: 5px 0;
+	}
+
+}
